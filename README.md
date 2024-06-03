@@ -1,1 +1,11 @@
-# qa_python
+# qa_python 4
+
+test_add_new_book_add_two_books проверяет добавление 2х книг в словарь без указания жанра.
+test_set_book_genre_add_two_books проверяет установку жанров двум добавленным книгам
+test_get_book_genre_get_one_book_genre проверка вывода жанра книги по её имени
+test_get_books_with_specific_genre_get_cartoon_genre проверяет вывод списка книг с жанром 'Мультфильмы'
+test_get_books_genre_three_books проверяет вывод текущего словаря books_genre из 3х книг
+test_get_books_for_children_get_allowed_book проверка возврата названия книги с допустимым жанром из списка genre
+test_add_book_in_favorites_one_book проверка добавления книги в избранное
+test_delete_book_from_favorites_one_book проверка удаления добавленной книги из избранного
+test_get_list_of_favorites_books_get_list проверка получения списка избранных книг
